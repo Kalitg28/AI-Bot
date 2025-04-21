@@ -14,4 +14,4 @@ IS_FSUB = bool(os.environ.get("FSUB", True)) # Set "True" For Force Subscribe En
 AUTH_CHANNELS = os.environ.get("AUTH_CHANNEL", "-1002327045567") # Add Multiple Channels iD By Space
 AUTH_CHANNELS = [int(channel_id) for channel_id in AUTH_CHANNELS.split(",")] # DONT TOUCH
 
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyC7F6hGS9ZNMdUDXueQfhnhTZsYIWG9IXk")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyDojXqjZT7VvCVIQ2-l3mkmopbMoyo0W7Q")
