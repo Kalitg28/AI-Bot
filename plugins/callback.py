@@ -15,7 +15,7 @@ async def callback_query_handler(client, query: CallbackQuery):
                     InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help")
                 ],
                 [
-                    InlineKeyboardButton("♻ ᴅᴇᴠᴇʟᴏᴘᴇʀ ♻", url="https://telegram.me/TechifyRahul")
+                    InlineKeyboardButton("♻ ᴅᴇᴠᴇʟᴏᴘᴇʀ ♻", url="https://telegram.me/Indian_MV_Admin_Bot")
                 ]
             ])
         )
@@ -26,8 +26,8 @@ async def callback_query_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
                 [
-                    InlineKeyboardButton("ᴜᴩᴅᴀᴛᴇꜱ", url="https://telegram.me/Techifybots"),
-                    InlineKeyboardButton("ꜱᴜᴩᴩᴏʀᴛ", url="https://telegram.me/TechifySupport")
+                    InlineKeyboardButton("ᴜᴩᴅᴀᴛᴇꜱ", url="https://telegram.me/Indian_MV"),
+                    InlineKeyboardButton("ꜱᴜᴩᴩᴏʀᴛ", url="https://telegram.me/Indian_MV_Group")
                 ],
                 [
                     InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="start"),
@@ -42,8 +42,8 @@ async def callback_query_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
                 [
-                    InlineKeyboardButton("💥 ʀᴇᴘᴏ", url="https://github.com/TechifyBots/AI-Bot"),
-                    InlineKeyboardButton("👨‍💻 ᴏᴡɴᴇʀ", url="https://telegram.me/TechifyRahul")
+                    InlineKeyboardButton("🇮🇳 𝐈𝐧𝐝𝐢𝐚𝐧 𝐌𝐕 🇮🇳", url="https://t.me/Indian_MV"),
+                    InlineKeyboardButton("👨‍💻 ᴏᴡɴᴇʀ", url="https://telegram.me/Indian_MV_Admin_Bot")
                 ],
                 [
                     InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="start"),
