@@ -33,7 +33,7 @@ async def get_fsub(client, message):
             channel_link = chat.invite_link
             if not channel_link:
                 raise ValueError("No invite link available")
-            buttons.append(InlineKeyboardButton(f"🔰 Channel {index} 🔰", url=channel_link))
+            buttons.append(InlineKeyboardButton(f"🇮🇳 𝐈𝐧𝐝𝐢𝐚𝐧 𝐌𝐕 {index} 🇮🇳", url=channel_link))
         except Exception as e:
             print(f"Error fetching channel data: {e}")
     tybutton = InlineKeyboardButton("🔄 Try Again", url=f"https://telegram.me/{rahul.username}?start=start")
