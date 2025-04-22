@@ -15,7 +15,7 @@ async def callback_query_handler(client, query: CallbackQuery):
                     InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help")
                 ],
                 [
-                    InlineKeyboardButton("♻ ᴅᴇᴠᴇʟᴏᴘᴇʀ ♻", url="https://telegram.me/Indian_MV_Admin_Bot")
+                    InlineKeyboardButton("🎬 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🎬", url="https://t.me/Movies_Request_MV")
                 ]
             ])
         )
